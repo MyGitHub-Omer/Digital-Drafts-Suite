@@ -1,0 +1,69 @@
+# Dependabot configuration for Digital Drafts Suite
+# Keeps Node.js and GitHub Actions dependencies up to date
+
+version: 2
+updates:
+  # ──────────────────────────────────────────────
+  # 1. Keep Node.js (npm) dependencies updated
+  # ──────────────────────────────────────────────
+  - package-ecosystem: "npm"
+    directory: "/"              # Root directory containing package.json
+    schedule:
+      interval: "weekly"        # Can be daily, weekly, or monthly
+      day: "sunday"             # Dependabot checks every Sunday
+      time: "02:00"             # UTC time
+    commit-message:
+      prefix: "npm"
+      include: "scope"
+    open-pull-requests-limit: 10
+    rebase-strategy: "auto"
+    ignore:
+      - dependency-name: "eslint"
+        versions: ["<9.0.0"]    # Example: ignore old versions
+    labels:
+      - "dependencies"
+      - "npm"
+      - "automated-update"
+    reviewers:
+      - "MyGitHub-Omer"         # Replace with your GitHub username
+    assignees:
+      - "MyGitHub-Omer"
+
+  # ──────────────────────────────────────────────
+  # 2. Keep GitHub Actions workflows updated
+  # ──────────────────────────────────────────────
+  - package-ecosystem: "github-actions"
+    directory: "/"              # Root directory for workflow files (.github/workflows)
+    schedule:
+      interval: "weekly"
+      day: "sunday"
+      time: "02:30"
+    commit-message:
+      prefix: "ci"
+      include: "scope"
+    labels:
+      - "dependencies"
+      - "github-actions"
+      - "automated-update"
+    reviewers:
+      - "MyGitHub-Omer"
+    assignees:
+      - "MyGitHub-Omer"
+
+
+
+
+
+
+
+# To get started with Dependabot version updates, you'll need to specify which
+# package ecosystems to update and where the package manifests are located.
+# Please see the documentation for all configuration options:
+# https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
+
+version: 2
+updates:
+  - package-ecosystem: "" # See documentation for possible values
+    directory: "/" # Location of package manifests
+    schedule:
+      interval: "weekly"
