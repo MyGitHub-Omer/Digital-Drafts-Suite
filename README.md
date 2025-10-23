@@ -7,12 +7,12 @@ Welcome to Digital Drafts Dépôt, your one-stop shop for digital files, documen
 **Digital Drafts Dépôt** is a digital marketplace for selling and distributing files, documents, and activation keys.  
 It provides users with a smooth shopping experience, secure payment integrations, and an informative blog.
 
----
+
 
 ## 🌐 Live Demo
 [Visit Website](https://digitaldraftsdepot.com) *(Replace with your actual URL)*
 
----
+
 
 ## 📁 Project Structure
 
@@ -47,7 +47,7 @@ It provides users with a smooth shopping experience, secure payment integrations
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/digital-drafts-depot.git
+   git clone https://github.com/MyGitHub-Omer/Digital-Drafts-Suite.git
    cd digital-drafts-depot
 
 
