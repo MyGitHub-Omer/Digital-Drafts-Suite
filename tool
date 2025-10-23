@@ -1,1 +1,1 @@
-components/navbar/README.md
+git rm tool
