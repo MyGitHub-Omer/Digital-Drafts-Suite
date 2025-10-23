@@ -1,5 +1,6 @@
 # Digital-Drafts-Suite
-Welcome to Digital Drafts Dépôt, your one-stop shop for digital files, documents, and activation keys.
+
+Digital-Drafts-Suite is Draft tools for web development services & assistant code for Digital Drafts Dépôt
 
 
 # Digital Drafts Dépôt
