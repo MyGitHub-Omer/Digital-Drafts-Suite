@@ -21,11 +21,11 @@ Each API entry in the list typically includes a description, the type of authent
 
 
 
-[Visit GitHub link here]([Visit Website](https://digitaldraftsdepot.com))
+[Visit GitHub link here]([Visit GitHub link here](https://digitaldraftsdepot.com))
 
 Https://github.com/public-apis
 
 
-
+[Visit GitHub link here]([Visit GitHub link here](Https://github.com/public-apis))
 
 
